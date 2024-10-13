@@ -1,0 +1,33 @@
+# == Schema Information
+#
+# Table name: subscriptions
+#
+#  id          :bigint           not null, primary key
+#  type        :string
+#  name        :string
+#  description :string
+#  format      :string
+#  price       :float
+#  start       :date
+#  expiration  :date
+#  created_at  :datetime         not null
+#  updated_at  :datetime         not null
+#
+
+one:
+  type: 
+  name: MyString
+  description: MyString
+  format: MyString
+  price: 1.5
+  start: 2024-10-13
+  expiration: 2024-10-13
+
+two:
+  type: 
+  name: MyString
+  description: MyString
+  format: MyString
+  price: 1.5
+  start: 2024-10-13
+  expiration: 2024-10-13

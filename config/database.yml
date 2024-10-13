@@ -1,0 +1,21 @@
+default: &default
+  adapter: postgresql
+  encoding: unicode
+  pool: <%= ENV.fetch("RAILS_MAX_THREADS") { 5 } %>
+  username: postgres
+  password: sa123456
+  host: db # Este es el nombre del servicio en docker-compose.yml
+
+development:
+  <<: *default
+  database: crud_development
+
+test:
+  <<: *default
+  database: crud_test
+
+production:
+  <<: *default
+  database: crud_production
+  username: crud
+  password: sa123456

@@ -1,0 +1,30 @@
+# == Schema Information
+#
+# Table name: students
+#
+#  id          :bigint           not null, primary key
+#  name        :string
+#  surname     :string
+#  email       :string
+#  socialmedia :string
+#  active      :boolean
+#  since       :date
+#  created_at  :datetime         not null
+#  updated_at  :datetime         not null
+#
+
+one:
+  name: MyString
+  surname: MyString
+  email: MyString
+  socialmedia: MyString
+  active: false
+  since: 2024-10-13
+
+two:
+  name: MyString
+  surname: MyString
+  email: MyString
+  socialmedia: MyString
+  active: false
+  since: 2024-10-13
