@@ -23,7 +23,7 @@ class CoursesController < ApplicationController
   private
 
   def course_params
-    params.require(:course).permit(:title, :description, :visible, :published)
+    params.require(:course).permit(:title, :description, :visible, :published, :teacher_id)
   end
   def edit
   end

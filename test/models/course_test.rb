@@ -9,6 +9,7 @@
 #  visible     :boolean          default(FALSE)
 #  created_at  :datetime         not null
 #  updated_at  :datetime         not null
+#  teacher_id  :bigint           not null
 #
 require "test_helper"
 
